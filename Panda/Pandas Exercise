@@ -1,0 +1,17 @@
+Pandas Exercise :
+
+Data : https://archive.ics.uci.edu/ml/datasets/Housing
+
+1. Read housing.data as a dataframe and see what the size is
+
+'crim','zn','indus','chas','nox','rm','age','dis','rad','tax','ptratio','bk','lsat','medv'
+
+2. Create a DF containing data. Index are 2000-2015, columns are ['College', 'Admits', 'GPA']
+
+3. Add a column called as fees and start fees by 1000 and increment it by 100 every year.
+
+4. Create new DF by droping data before 2005
+
+5. Show fees for year 2011-2015
+
+6. Show data where admit was more than 30

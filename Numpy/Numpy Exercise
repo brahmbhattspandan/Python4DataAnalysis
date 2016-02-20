@@ -1,0 +1,29 @@
+Numpy Exercise :
+
+1. Create a array of odd number from 1 to 50 using a for comprehension and create a numpy array.
+
+2. Find what is the size of ndarray and then create a array of zero number of same size.
+
+3. Find the 5th last element in narr and set last 5 elements of zarr to that  number.
+
+4. Make the odd array into even array by transforming each element to next element.
+
+5. Make all number which are greater than 40 to be 50.
+
+6. Get all the elements which belong to every 5th position i.e has index 0,5,10 etc
+
+7. Resize narr and zarr into 5x5
+
+8. Get the same elements as you got above.
+
+9. Convert zarr to a 5x5 containing which contains all 0 in 0th row, all 1 in 1st row.
+
+10. Get all elements from narr only if element in zarr is even. For odd put -1
+
+11. Find the sum of number only if they are positive and are greater than 25 in narr
+
+
+
+
+Pandas Exercise :
+
