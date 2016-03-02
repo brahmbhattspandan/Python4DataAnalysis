@@ -1,0 +1,13 @@
+nums = sc.parallelize([1,2,3,4,5])
+n10 = nums.map(lambda n: n+10)
+n13 = n10.filter(lambda n: n>13)
+sum = n13.sum(lambda a,b: a+b)
+
+
+Word Count :
+
+text_file = sc.textFile("words.txt")
+fcounts = text_file.flatMap(lambda line: line.split(" ")) 
+fmap = fcounts.map(lambda word: (word, 1))
+count =fmap.reduceByKey(lambda a, b: a + b)
+counts.saveAsTextFile("count.txt")
